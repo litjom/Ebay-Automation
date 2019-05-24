@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\littin.jomon\AppData\Local\Temp\testng-eclipse--996532916\testng-customsuite.xml</span>
+                    <span>C:\Users\littin.jomon\AppData\Local\Temp\testng-eclipse--1295212627\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,   4 passed</span>
+                    <span class="method-stats">6 methods,   6 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,7 +102,17 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="HomePageTest" hash-for-method="OpenNewEbayTest">OpenNewEbayTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="HomePageTest" hash-for-method="testGetTextFromDropDown">testGetTextFromDropDown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="HomePageTest" hash-for-method="verifyDropDownValues">verifyDropDownValues</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -140,9 +150,27 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="OpenNewEbayTest">
+                  </a> <!-- OpenNewEbayTest -->
+                  <span class="method-name">OpenNewEbayTest</span>
+                  <em>
+(A New Page is opened)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="testGetTextFromDropDown">
                   </a> <!-- testGetTextFromDropDown -->
                   <span class="method-name">testGetTextFromDropDown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDropDownValues">
+                  </a> <!-- verifyDropDownValues -->
+                  <span class="method-name">verifyDropDownValues</span>
+                  <em>
+(Drop down values verified)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -171,7 +199,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\littin.jomon\AppData\Local\Temp\testng-eclipse--996532916\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\littin.jomon\AppData\Local\Temp\testng-eclipse--1295212627\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -220,28 +248,36 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(6);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testGetTextFromDropDown')
+data.setCell(0, 1, 'verifycontactlink')
 data.setCell(0, 2, 'HomePageTest')
-data.setCell(0, 3, 2749);
+data.setCell(0, 3, 2937);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'verifycontactlink')
+data.setCell(1, 1, 'OpenNewEbayTest')
 data.setCell(1, 2, 'HomePageTest')
-data.setCell(1, 3, 1923);
+data.setCell(1, 3, 2733);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'verifyusernamelabel')
+data.setCell(2, 1, 'verifyDropDownValues')
 data.setCell(2, 2, 'HomePageTest')
-data.setCell(2, 3, 62);
+data.setCell(2, 3, 2624);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'verifyHomePageTitleTest')
+data.setCell(3, 1, 'testGetTextFromDropDown')
 data.setCell(3, 2, 'HomePageTest')
-data.setCell(3, 3, 19);
+data.setCell(3, 3, 2458);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyusernamelabel')
+data.setCell(4, 2, 'HomePageTest')
+data.setCell(4, 3, 59);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyHomePageTitleTest')
+data.setCell(5, 2, 'HomePageTest')
+data.setCell(5, 3, 26);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 4 seconds</span>
+              <span class="suite-total-time">Total running time: 10 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -274,47 +310,71 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyHomePageTitleTest</span>
-                <span class="method-start">9133 ms</span>
+                <span class="method-start">8854 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">9154 ms</span>
+                <span class="method-start">8882 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">9852 ms</span>
+                <span class="method-start">9568 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyusernamelabel</span>
-                <span class="method-start">17441 ms</span>
+                <span class="method-start">16799 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">17505 ms</span>
+                <span class="method-start">16860 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">18229 ms</span>
+                <span class="method-start">17573 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifycontactlink</span>
-                <span class="method-start">25712 ms</span>
+                <span class="method-start">24908 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">27640 ms</span>
+                <span class="method-start">27846 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">28376 ms</span>
+                <span class="method-start">28561 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testGetTextFromDropDown</span>
-                <span class="method-start">36554 ms</span>
+                <span class="method-start">35605 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">39305 ms</span>
+                <span class="method-start">38065 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">38822 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyDropDownValues</span>
+                <span class="method-start">46366 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">48990 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">49697 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">OpenNewEbayTest</span>
+                <span class="method-start">58403 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">61137 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

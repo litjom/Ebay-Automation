@@ -58,6 +58,14 @@ public class HomePageTest extends TestBase1{
 	@Test(priority =4)
 	public void testGetTextFromDropDown() {
 		homepage.getTextofDropDown();
+		}
+	@Test(priority =5, description="Drop down values verified",dependsOnMethods ="testGetTextFromDropDown")
+	public void verifyDropDownValues() {
+		homepage.verifydropdownresults();
+	}
+	@Test (priority =6,description ="A New Page is opened")
+	public void OpenNewEbayTest() throws InterruptedException {
+		homepage.openNewEbay();
 	}
 	
 	

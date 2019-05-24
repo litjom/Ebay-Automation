@@ -5,12 +5,9 @@
     <classes>
       <class name="HomePageTest">
         <methods>
+          <include name="OpenNewEbayTest"/>
           <include name="setup"/>
-          <include name="verifycontactlink"/>
           <include name="teardown"/>
-          <include name="verifyHomePageTitleTest"/>
-          <include name="verifyusernamelabel"/>
-          <include name="verifymessage"/>
         </methods>
       </class> <!-- HomePageTest -->
     </classes>
